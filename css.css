@@ -1,0 +1,178 @@
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: fit-content;
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+    background: #222;
+    background-image: url("https://source.unsplash.com/random/1920X1080/?landscape");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-size: 110%;
+    padding-top: 30px;
+  }
+
+
+  .container{
+   /* align-items: center;*/
+    width: fit-content;
+    background: linear-gradient(to right, #3a548f8c, #182848b2);
+    color: white;
+    padding: 2em;
+    border-radius: 30px;
+    margin: 1em;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center
+    
+  }
+  .city{
+    color: rgba(0, 255, 255, 0.679);
+  }
+  .temp{
+    color: rgba(255, 213, 0, 0.523);
+
+  }
+  
+   .card {
+    background: linear-gradient(to right, #3a548f88, #18284868);
+    color: white;
+    padding: 2em;
+    border-radius: 30px;
+    margin: 1em;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    align-items:center ;
+    justify-content: center;
+    width: fit-content;
+  }
+  .cards{
+    width: fit-content;
+    background-color: rgba(0, 221, 255, 0.014);
+    height: fit-content;
+      border-radius: 10px;
+      padding: 10px;
+      
+      text-align: center;
+      backdrop-filter: blur(10px);
+      border: .2px solid rgba(255, 255, 255, 0.563);
+      transition: all ease .5s;
+      font-weight: 100;
+      
+
+  }
+  .main{
+    background: linear-gradient(to right, #3a548f88, #18284868);
+
+
+    backdrop-filter: blur(10px);
+
+    width: fit-content;
+    padding: 20px;
+    border-radius: 20px;
+  }
+  .cards:hover{
+    transform: scale(1.05);
+    filter: brightness(1.2);
+  }
+  .temperature{
+    text-align: center;
+  }
+  .cards h1{
+    font-size: 20px;
+    font-weight: 100;
+    color: rgba(29, 214, 106, 0.786);
+  }
+  .cards h2{
+    font-size: 16px;
+    font-weight: 100;
+    line-height: 10px;
+    color: rgba(215, 233, 202, 0.786);
+
+  }
+  .cards h2 span{
+   
+    color: rgba(229, 216, 105, 0.786);
+
+  }
+   .des{
+    color: #5889eab2;
+  }
+  .h1{
+    font-size: 16px;
+    font-weight: 100;
+    color: rgba(215, 233, 202, 0.786);
+
+    
+  }
+  .h1 span{
+    font-size: 16px;
+    font-weight: 100;
+    color: rgba(230, 220, 187, 0.668);
+
+    
+  }
+  .humidity{
+    color: rgba(127, 187, 255, 0.716);
+  }
+  .wind{
+    color: rgba(91, 235, 245, 0.844);
+  }
+  .description{
+    color: rgba(127, 242, 255, 0.716);
+  }
+  .cards h2{
+    font-size: 16px;
+  }
+  .icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+
+   
+  .search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  button {
+    margin: 0.5em;
+    border-radius: 50%;
+    border: none;
+    height: 44px;
+    width: 44px;
+    outline: none;
+    background: #bebebead;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+  }
+  
+  input.search-bar {
+    border: none;
+    outline: none;
+    padding: 0.4em 1em;
+    border-radius: 24px;
+    background: #bebebead;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    font-size: 105%;
+    width: calc(100% - 100px);
+  }
+  
+  button:hover {
+    background: #c9c9c9af;
+  }
+  
+
